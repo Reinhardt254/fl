@@ -1,0 +1,246 @@
+
+.home-layout {
+    height: 100%;
+    position: relative;
+    width: 100%;
+  }
+  
+  .home-layout-image {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-layout-text-container {
+    position: absolute;
+    bottom: 50%;
+  }
+  
+  
+  .home-layout-text p {
+    font-weight: bold;
+    font-size: xx-large;
+    color: whitesmoke;
+  }
+  
+  .home-layout-button {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  
+  .home-layout-button-content {
+    background-color: #3c7a3c;
+    border-radius: 40px;
+    height: 4.5em;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  
+  .home-layout-button-content:hover  {
+    background-color: white;
+    color: #3c7a3c;
+  }
+  
+  .home-layout-button-content a {
+    color: whitesmoke;
+    font-size: xx-large;
+    font-weight: 600;
+    text-decoration: none;
+  
+  }
+  
+  .home-layout-button-content p:hover {
+   color: #3c7a3c;
+  }
+  
+  .home-layout-image-pic {
+    width: 100%;
+    height: auto;
+    min-height: 460px;
+  }
+  
+  .layout-shreded-image-pic {
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+  
+  }
+  
+  .green-text {
+    color: #3c7a3c;
+    font-size: xx-large;
+    font-weight: 600;
+  }
+  
+  .black-text {
+    color: black;
+    padding-left: 5px;
+    font-size: xx-large;
+    font-weight: 600;
+  }
+  
+  .who-we-are-text-paragraph {
+    font-size: x-large;
+  }
+  
+  .who-we-are-text {
+    display: flex;
+  }
+  
+  .who-we-are-button {
+    background-color: #3c7a3c;
+    width: 13em;
+    height: 3.5em;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .who-we-are-button a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+  }
+  
+  .who-we-are-image {
+    border-top-left-radius: 340px;
+    border-bottom-left-radius: 340px;
+    margin-top: 40px;
+  }
+  
+  .who-we-are-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .who-we-are-column {
+    flex: 1;
+    padding: 20px;
+    padding-left: 60px;
+  }
+  
+  .who-we-are-column-left {
+    flex: 1;
+    padding: 20px;
+    padding-left: 200px;
+  }
+  
+  .who-we-are-column img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  @media only screen and (min-width: 768px){
+    .home-layout-text {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .who-we-are-container {
+      flex-direction: column;
+    }
+  
+    .who-we-are-column {
+      flex: 1;
+      padding: 20px;
+    }
+  
+    .who-we-are-column-left {
+      flex: 1;
+      padding: 20px;
+      padding-bottom: 40px;
+    }
+  
+    .home-layout-text p {
+      font-weight: bold;
+      font-size: 25px;
+      color: whitesmoke;
+    }
+  
+    .home-layout-text-container {
+      position: absolute;
+      padding-left: 10px;
+      padding-right: 10px;
+      bottom: 40%;
+    }
+  
+    .home-layout-text {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  
+  .dual-background {
+    height:100%;
+  display: flex;
+  justify-content: end;
+  align-items: end; 
+  position: relative;
+  }
+  
+  .soil-image {
+      position: relative;
+      width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: end; 
+  overflow: hidden;
+  }
+  
+  .soil-image-pic {
+      width: 100%;
+  height: auto;
+      display: block;
+  }
+  
+  .text-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #fff;
+      font-size: 38px;
+      font-weight: bold;
+     
+  }
+  
+  .gradient-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+       background: linear-gradient(to bottom, #E9E6E0, white 50%);
+      pointer-events: none;
+  z-index: -5;
+  }

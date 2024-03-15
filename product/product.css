@@ -1,0 +1,489 @@
+.product-page {
+}
+
+.green-text {
+  color: #3c7a3c;
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.black-text {
+  color: black;
+  padding-left: 10px;
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.product-page-container {
+  position: relative;
+  z-index: -20;
+  height: 100%;
+  width: 100%;
+}
+
+.product-page-image {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.product-page-image-pic {
+  height: 100%;
+  width: 100%;
+}
+
+.product-page-image-text {
+  position: absolute;
+  width: 100%;
+  bottom: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.product-page-image-text h1 {
+  font-weight: 800;
+  font-size: 30px;
+  color: white;
+}
+
+.product-container {
+  height: 100%;
+  width: 100%;
+}
+
+.product-shreded-image-pic {
+  height: auto;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.product-shreded-image {
+  height: auto;
+  width: 100%;
+  min-height: 50px;
+}
+
+.product-text-container h1 {
+  font-weight: 800;
+  font-size: 30px;
+  color: #3f7e47;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.product-text-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-container-services {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 580px) {
+  .product-container-services {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product-container-services-text {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .product-container-services-text p {
+    font-weight: 250;
+    font-size: 18px;
+    color: black;
+  }
+}
+
+.product-container-services-content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-container-services-content h1 {
+  font-weight: 800;
+  font-size: 25px;
+  color: black;
+}
+
+.product-container-services-text {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.product-container-services-text p {
+  font-weight: 300;
+  font-size: 20px;
+  color: black;
+}
+
+@media only screen and (min-width: 800px) {
+  .product-text-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product-container-services-text p {
+    font-weight: 300;
+    font-size: 25px;
+    color: black;
+  }
+
+  .product-container-services-text {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+  }
+
+  .know-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+  }
+}
+
+.know-container {
+  height: 100%;
+  width: 100%;
+}
+
+.know-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.know-content h1 {
+  font-weight: 800;
+  font-size: 25px;
+  text-align: center;
+  color: #3f7e47;
+}
+
+.know-content p {
+  font-weight: 200;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+.know-button-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.know-button {
+  height: 50px;
+  width: 200px;
+  margin-top: 20px;
+  background-color: #3f7e47;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.know-button h1 {
+  font-weight: 200;
+  font-size: 22px;
+  color: white;
+}
+
+.know-shreded-image {
+  width: 100%;
+  background: linear-gradient(to bottom, #e9e6e0, white);
+}
+
+/* @media only screen  and ( max-width: 480px){
+  .know-shreded-image {
+    position: absolute;
+    width: 100%;
+    top: -100px;
+  }
+}
+
+@media only screen  and ( min-width: 880px){
+  .know-shreded-image {
+    position: absolute;
+    width: 100%;
+    top: -500px;
+  }
+}
+
+@media only screen  and ( min-width: 580px){
+  .know-shreded-image {
+    position: absolute;
+    width: 100%;
+    top: -300px;
+  }
+} */
+
+.product-popup {
+  z-index: -20;
+  padding-bottom: 50px;
+  background-color: #e9e6e0;
+}
+
+.product-popup-text {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.product-popup p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+  padding-bottom: 50px;
+}
+
+.popup-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .popup-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .popup-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .popup-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .product-popup p {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 300;
+    padding-bottom: 50px;
+  }
+}
+
+.popup-card h1 {
+  color: #3c7a3c;
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.plus-icon {
+  height: 65px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 9999; /* Ensure the popup is on top of other content */
+}
+
+.popup-content {
+  background-color: white;
+  width: 60%;
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 0px;
+  border-radius: 0px;
+}
+
+
+
+.close:hover {
+  color: red;
+}
+
+.scrollable-content {
+  max-height: 500px; /* Set maximum height for scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.popups-container {
+  max-width: 600px;
+  margin: 0 auto;
+  column-count: 2; /* Set the number of columns */
+  column-gap: 20px; /* Adjust the gap between columns */
+}
+
+.popup-heading{
+  background-color: #e9e6e0;
+  height: 110px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  cursor: pointer;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.popup-heading h1{
+  font-family: "Varela Round", sans-serif;
+  letter-spacing: 6px;
+  font-weight: 600;
+  font-size: 28px;
+  color: #3F7E47;
+  text-align: center;
+}
+
+.input{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+input[type="text"] {
+  width: 60%;
+  padding: 10px;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 20px; /* Set border radius */
+  background-image: url('https://plantechkenya.wpcomstaging.com/wp-content/uploads/2024/03/Search.png');
+  background-position: calc(3%) center;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  border: 1px solid gray; /* Example border */
+  outline: none; /* Remove default input focus outline */
+}
+
+input[type="text"]:focus {
+  border-color: gray; /* Example color on focus */
+}
+
+
+/* For Firefox */
+::-moz-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar handle */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* For WebKit-based browsers */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar handle */
+  border-radius: 10px; /* Rounded corners */
+}
+
+
+.item {
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: white;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding-left: 30px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  display: inline-block; /* Remove this line */
+  width: 100%; /* Remove this line */
+}
+
+.item:hover {
+  background-color: #e0e0e0;
+}
+
+@media (max-width: 800px) {
+  .popups-container {
+    column-count: 2; /* Change to one column for smaller screens */
+  }
+
+  .popup-content {
+    background-color: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 0px;
+    border-radius: 0px;
+  }
+}
